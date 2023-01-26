@@ -1,0 +1,211 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --main-color: #4461fa;
+  --substate-color: #eeeeee;
+  --white-color: #ffffff;
+  --black-color: #222127;
+  --text-color: rgba(34, 33, 39, 0.7);
+}
+
+.wrapped-container {
+  background-image: url(/images/image\ 242.png);
+  background-size: cover;
+}
+
+.my-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  margin-top: 30.5px;
+  margin-bottom: 24.5px;
+}
+
+.logo-pic {
+  padding-top: 3px;
+}
+
+.logo-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: rgba(34, 33, 39, 0.5);
+  padding-left: 10px;
+}
+.coloured-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: var(--black-color);
+}
+
+.navbar {
+  display: flex;
+  margin-top: 33px;
+  margin-bottom: 27px;
+}
+
+.nav-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: var(--text-color);
+  padding-right: 49px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.phone-number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--black-color);
+  padding-bottom: 6px;
+}
+
+.order-call {
+  padding-left: 62px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--main-color);
+}
+
+.jumbotron {
+  margin-top: 105px;
+
+}
+
+.location {
+  display: inline-flex;
+  padding: 8px 13px;
+  border: 1.5px solid var(--main-color);
+  border-radius: 30px;
+}
+
+.loc-img {
+}
+
+.loc-text {
+  padding-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.jumbo-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 130%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.jumbo-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+}
+
+.form-input {
+  border: none;
+  width: 360px;
+  border-radius: 7px;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: rgba(34, 33, 39, 0.5);
+  padding: 15px 25px 15px 50px;
+}
+
+.form-wrapper {
+  position: relative;
+}
+
+.form-wrapper::before {
+  background: url(/images/Phone.svg) no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 25px;
+  margin: auto 0;
+  width: 20px;
+  height: 20px;
+}
+
+.form-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white-color);
+  padding: 13px 44px;
+  border-radius: 30px;
+  background: var(--main-color);
+  border: none;
+  margin-left: 15px;
+}
+
+.form-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 148%;
+  margin-top: 15px;
+  color: rgba(38, 38, 38, 0.4);
+  padding-bottom: 115px;
+}
