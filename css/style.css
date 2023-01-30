@@ -213,7 +213,7 @@ header {
 
 /* Категории */
 
-.row{
+.row {
   display: flex;
   justify-content: space-between;
 }
@@ -244,7 +244,7 @@ header {
   margin: 25px;
 }
 
-.wrapper-category-img{
+.wrapper-category-img {
   background-image: url(/images/Ellipse.svg);
 }
 
@@ -260,19 +260,68 @@ header {
 
 /* О компании */
 
-.about{
+.about {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
-.about-images{
+.about-images {
   display: flex;
 }
 
-.about-image{
+.about-image {
   width: 265.5px;
 }
 
-.about-icons{
+.image-group-1{
+  margin-right: 38px;
+}
+
+.image-group-2{
+  margin-top: 50px;
+}
+
+.about-image-1{
+  margin-bottom: 30px;
+}
+
+.about-article {
+  max-width: 531px;
+}
+.about-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 130%;
+  color: var(--black-color);
+  margin-top: 130px;
+}
+.about-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.about-icons {
   display: flex;
+  justify-content: space-between;
+}
+.about-icon {
+  max-width: 163px;
+}
+.icon-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--black-color);
+  padding-top: 20px;
 }
