@@ -16,16 +16,17 @@ html {
   --text-color: rgba(34, 33, 39, 0.7);
 }
 
+.my-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Хедер */
+
 .wrapped-container {
   background-image: url(/images/image\ 242.png);
   background-size: cover;
 }
-
-.my-container {
-  width: 1170px;
-  margin: 0 auto;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -105,9 +106,9 @@ header {
   color: var(--main-color);
 }
 
+/* Главный баннер */
 .jumbotron {
   margin-top: 105px;
-
 }
 
 .location {
@@ -208,4 +209,70 @@ header {
   margin-top: 15px;
   color: rgba(38, 38, 38, 0.4);
   padding-bottom: 115px;
+}
+
+/* Категории */
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 130%;
+  color: var(--black-color);
+  margin-bottom: 55px;
+}
+
+.category {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.category-img {
+  width: 120px;
+  height: 120px;
+  margin: 25px;
+}
+
+.wrapper-category-img{
+  background-image: url(/images/Ellipse.svg);
+}
+
+.category-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: var(--black-color);
+  margin-top: 15px;
+}
+
+/* О компании */
+
+.about{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-images{
+  display: flex;
+}
+
+.about-image{
+  width: 265.5px;
+}
+
+.about-icons{
+  display: flex;
 }
