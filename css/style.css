@@ -274,15 +274,15 @@ header {
   width: 265.5px;
 }
 
-.image-group-1{
+.image-group-1 {
   margin-right: 38px;
 }
 
-.image-group-2{
+.image-group-2 {
   margin-top: 50px;
 }
 
-.about-image-1{
+.about-image-1 {
   margin-bottom: 30px;
 }
 
@@ -324,4 +324,75 @@ header {
   line-height: 140%;
   color: var(--black-color);
   padding-top: 20px;
+}
+
+/* Каталог */
+
+.catalog-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 130%;
+}
+
+.catalog-header {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.catalog-menu {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  color: rgba(34, 33, 39, 0.3);
+}
+
+.cat-menu-item {
+  padding-right: 50px;
+}
+
+.item-card {
+  max-width: 270px;
+}
+
+.discount-tag {
+  max-width: 51px;
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  border-radius: 5px;
+  background: #464646;
+}
+
+.card-image {
+  width: 130px;
+  height: 130px;
+}
+
+.item-pres {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #4ecc21;
+}
+
+.item-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
 }
