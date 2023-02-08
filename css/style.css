@@ -24,7 +24,7 @@ html {
 /* Хедер */
 
 .wrapped-container {
-  background-image: url(/images/image\ 242.png);
+  background-image: url(../images/image\ 242.png);
   background-size: cover;
 }
 header {
@@ -175,7 +175,7 @@ header {
 }
 
 .form-wrapper::before {
-  background: url(/images/Phone.svg) no-repeat;
+  background: url(../images/Phone.svg) no-repeat;
   content: "";
   position: absolute;
   top: 0;
@@ -245,7 +245,7 @@ header {
 }
 
 .wrapper-category-img {
-  background-image: url(/images/Ellipse.svg);
+  background-image: url(../images/Ellipse.svg);
 }
 
 .category-name {
@@ -328,6 +328,11 @@ header {
 
 /* Каталог */
 
+.catalog-items{
+  display: flex;
+  justify-content: space-between;
+}
+
 .catalog-title {
   font-family: "Inter";
   font-style: normal;
@@ -362,6 +367,36 @@ header {
   max-width: 270px;
 }
 
+.item-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.item-price{
+  display: flex;
+}
+
+.item-price-discount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.item-price-real {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration-line: line-through;
+}
+
 .discount-tag {
   max-width: 51px;
   padding: 10px;
@@ -380,6 +415,7 @@ header {
 }
 
 .item-pres {
+  display: flex;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
